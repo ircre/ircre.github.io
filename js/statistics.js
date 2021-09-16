@@ -1,0 +1,9 @@
+totalpublications = "573";
+totalarticles = "545";
+totalcitations = "18495";
+hindex = "66";
+i10index = "343";
+numberjournals = "159";
+numberesihighlycited = "26";
+citationperpaper = "33.94";
+averageif = "6.729";
