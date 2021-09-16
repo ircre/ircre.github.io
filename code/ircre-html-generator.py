@@ -357,7 +357,7 @@ def generateTop15ArtitleHtml(bibFilePath):
             if 'hihoimage' in allEntries[i].keys():
                 hiho = '''
                 <div style="float:inherit; height:40px; width:500px;text-align: left;"><img
-            src="./images/articlecover/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
+            src="./images/articlecovers/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
                 <a class="newlink" a href="./%s"
             target="_blank"><strong><em> %s</em></strong></a></div>
                 ''' % (allEntries[i]['hiholink'], allEntries[i]['hihosubject'])
@@ -464,7 +464,7 @@ def generateAricleHtml(bibFilePath):
             if 'hihoimage' in allEntries[i].keys():
                 hiho = '''
                     <div style=" height:40px; width:500px;text-align: left;"><img
-                src="./images/articlecover/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
+                src="./images/articlecovers/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
                     <a class="hiholinka" a href="./%s"
                 target="_blank"><strong><em> %s</em></strong></a></div>
                     ''' % (allEntries[i]['hiholink'], allEntries[i]['hihosubject'])
@@ -572,7 +572,7 @@ def generateBookHtml(bibFilePath):
             if 'hihoimage' in allEntries[i].keys():
                 hiho = '''
                     <div style=" height:40px; width:500px;text-align: left;"><img
-                src="./images/articlecover/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
+                src="./images/articlecovers/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
                     <a class="hiholinka" a href="./%s"
                 target="_blank"><strong><em> %s</em></strong></a></div>
                     ''' % (allEntries[i]['hiholink'], allEntries[i]['hihosubject'])
@@ -682,7 +682,7 @@ def generateProceedHtml(bibFilePath):
             if 'hihoimage' in allEntries[i].keys():
                 hiho = '''
                     <div style=" height:40px; width:500px;text-align: left;"><img
-                src="./images/articlecover/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
+                src="./images/articlecovers/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
                     <a class="hiholinka" a href="./%s"
                 target="_blank"><strong><em> %s</em></strong></a></div>
                     ''' % (allEntries[i]['hiholink'], allEntries[i]['hihosubject'])
@@ -800,7 +800,7 @@ def generateEditorialsHtml(bibFilePath):
             if 'hihoimage' in allEntries[i].keys():
                 hiho = '''
                     <div style=" height:40px; width:500px;text-align: left;"><img
-                src="./images/articlecover/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
+                src="./images/articlecovers/ISIHighlycitedlogo.jpg" alt="" width="77" height="31">
                     <a class="hiholinka" a href="./%s"
                 target="_blank"><strong><em> %s</em></strong></a></div>
                     ''' % (allEntries[i]['hiholink'], allEntries[i]['hihosubject'])
@@ -928,7 +928,7 @@ def generatehtml():
 
         <div id="header-ban">
             <p>&nbsp;</p>
-            <div id="logo"><img src="images/ircre-logo.jpg" width="360" height="153" alt=""></div>
+            <div id="logo"><img src="images/ircrelogo.jpg" width="360" height="153" alt=""></div>
             <ul>
                 <li><a href="index.html"><span>home</span></a></li>
                 <li><a href="people.html"><span>People</span></a></li>
@@ -4071,7 +4071,7 @@ def generatehtml():
                 </div>
             </div>
             <div id="backtothetop">
-                <a href="#top"><img src="images/buttons/5.jpg" width="105" height="28" class="button"></a>
+                <a href="#top"><img src="images/assets/5.jpg" width="105" height="28" class="button"></a>
             </div>
         </div>
     </div>
